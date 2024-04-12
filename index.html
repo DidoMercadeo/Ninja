@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DIDOJUEGOS</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="theme-color" content="#2c3f51">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="img/dido-circular.png" />
+</head>
+<!-- juego canvas -->
+<canvas id="c"></canvas>
+
+<!-- juego HUD -->
+<div class="hud">
+	<div class="hud__score">
+		<div class="score-lbl"></div>
+		<div class="cube-count-lbl"></div>
+	</div>
+	<div class="pause-btn"><div></div></div>
+	<div class="slowmo">
+		<div class="slowmo__bar"></div>
+	</div>
+</div>
+
+<!-- Menu sistema -->
+<div class="menus">
+	<div class="menu menu--main">
+		<h1>DIDOJUEGOS</h1>
+        <img class="did" src="img/LOGO-DIDO-SINFONDO-PNG.png">
+		<button type="button" class="play-normal-btn">Iniciar juego</button>
+		<button type="button" class="play-casual-btn">Modo casual</button>
+		<div class="credits">DIDO S.A.S <a href="https://didopet.com/">DIDO</a></div>
+	</div>
+	<div class="menu menu--pause">
+		<h1>Pausar</h1>
+		<button type="button" class="resume-btn">Continuar juego</button>
+		<button type="button" class="menu-btn--pause">Menu</button>
+	</div>
+	<div class="menu menu--score">
+		<h1>Perdiste</h1>
+		<h2>Tu puntuación:</h2>
+		<div class="final-score-lbl"></div>
+		<div class="high-score-lbl"></div>
+		<button type="button" class="play-again-btn">Jugar de nuevo</button>
+		<button type="button" class="menu-btn--score">MENU</button>
+	</div>
+</div>
+<script src="scrip.js"></script>
+
+</html>
+
+
+
+
+
+
+
